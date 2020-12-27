@@ -1,0 +1,490 @@
+/* GENERAL DESIGN */
+
+body{
+    margin-top: none;
+    font-family: 'Rouge Script', cursive;
+    font-size: 1.5em;
+}
+
+/* HEADER */
+
+header{
+    background-image:url("../images/header.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat:no-repeat;
+    min-height:300px;
+}
+
+.language{
+    color:black;
+    font-size: xx-large;
+    font-weight: bold;
+    padding-left: 5%;
+    padding-top: 20px;
+}
+
+h1{
+    font-family: 'Rouge Script', cursive;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 40px;
+    padding-left: 5%;
+    font-size: 2.5em;
+    font-weight: bold;
+    color:white;
+    text-shadow: 5px 5px 5px black;
+}
+
+.logo_header{
+    width:70%;
+    padding:10%
+}
+
+/* INPUT */
+
+.form-control:focus {
+    border-color: #af001f;
+    box-shadow:#af001f ;
+    box-shadow: 0 0 0 0.1rem #af001f;
+} 
+
+.form-control:hover {
+    border-color: #af001f;
+    box-shadow:#af001f ;
+    box-shadow: 0 0 0 0.1rem #af001f;
+}
+
+#livesearch{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* BUTTONS */
+
+button, .btn{
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    font-size: 1.5em;
+    font-family: 'Rouge Script', cursive;
+}
+
+button:hover , .btn:hover {
+    background-color: white;
+    color: black;
+    border-color: white;
+    font-size: 1.5em;
+    font-family: 'Rouge Script', cursive;
+}
+
+#div-carousel > div > div > div > div > div > button.slick-next.slick-arrow, button.slick-prev.slick-arrow{
+    color: black;
+}
+
+/* FORM */
+
+.idlabel{
+    display: none;
+}
+#frmInfos > div > label{
+    font-size: 1.5em;
+}
+
+.form_group{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#frmSearchAdd > div > input{
+    font-size: 1.5em;
+}
+
+.bottle{
+    text-align: center;
+    background-image: url("../images/bottle_backgroung.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+    background-position: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+/*  DYNAMIC IMG OF BOTTLE  */
+ 
+
+#col-img > img{
+    position: relative;
+    top: 50%;
+    min-width:100%; 
+    padding-top: 50%;
+    padding-bottom: auto;
+} 
+
+.likeThisWine{
+    position:relavive;
+    width:90%;
+    padding-top: auto;
+    padding-bottom: auto;
+    padding-left: 50%;
+    margin-top: 80%;
+}
+
+.likeCounter {
+    width: 100px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 5px;
+    background-color: #af001f;
+    border-radius: 5px;
+    color: white;
+    margin-top: 80%;
+}
+
+/*  INFO WINE  */
+
+.forms_wine{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.forms_background{
+    background-image: url("../images/fond.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#frmSearchAdd > div > input{
+    font-size: 1em;
+}
+
+:hover#searchbox,textarea,input{
+    border-color: #af001f;
+    border-width: 5px;
+}
+
+#frmInfos > div.form-group.text-center >:hover{
+    color:black;
+    border-color: black;
+    background-color: white;
+}
+/* WINES TAB */
+
+#frmInfos{
+    padding-top: 30px;
+}
+
+#col-tabWines{
+    font-family: Verdana, Tahoma, sans-serif;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: auto;
+}
+input{
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+textarea{
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+tr {
+    color: white;
+    border: 1px white solid;
+}
+
+tr:hover {
+    background-color:  #af001f;
+}
+
+button, input:hover{
+    border-color:  #af001f;;
+}
+
+/* COMMENTS */
+
+body {
+    min-width: 300px;
+}
+
+.comment-container{
+    margin-top: 35px;
+    padding-left: 35px;
+    padding-top: 25px;
+}
+
+.comment {
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+    *zoom: 1;
+}
+
+.comment-img {
+    float: left;
+    padding-right: 33px;
+    padding-top: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.comment-img img {
+    display: block;
+}
+
+#commentaires > article > a > img, #commentaires > img{
+    height:120px;
+}
+
+.comment-body {
+    padding-top: 15px;
+    padding-right: 20px;
+    overflow: hidden;
+}
+
+p {
+    margin: 0 0 1em;
+}
+
+.comment .text {
+    color: black;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    background: #fff;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+a, #main-content > div.col-sm-12.col-md-8.order-sm-3 > div > div:nth-child(3) > section > article > div > p > a{
+    color:#9fb757;
+}
+
+#main-content > div.col-sm-12.col-md-8.order-sm-3 > div > div:nth-child(3) > section > article > div > p > a:hover{
+    color:#61823b;
+}
+
+/* COMMENT DECORATION */
+
+.comments,
+.comment {
+    position: relative;
+}
+
+.comments:before,
+.comment:before,
+.comment .text:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 65px;
+}
+
+.bienvenue{
+    font-size: 2em;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.signature{
+    padding-bottom:30px ;
+}
+#noComment > h2 {
+    margin-top: 40px;
+}
+.greenColor {
+    color:#9fb757;
+}
+
+.redColor {
+    color: #af001f;
+    font-weight: bold;
+}
+/* COMMENT MODAL */
+
+#exampleModalLabel{
+    font-size: 2em;
+}
+
+.modal-header{
+    color:black;
+}
+.modal-body{
+    color:black;
+}
+
+.modal-footer > button{
+    background-color: white;
+    color:black;
+    border-color: black;
+}
+
+.modal-footer > button:hover {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+/* CAROUSEL */
+
+.invisible{
+    display: none;
+}
+
+body {
+    padding-left: 30px 0;
+    padding-right: 30px 0;
+  }
+
+.carousel{
+    text-align: center;
+    color: black;
+    font-size: 1.5em;
+    margin:0 auto;
+}
+
+.title_carousel{
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.slick-carousel{
+    padding-left:none;
+    padding-right:none;
+}
+
+.slick-carousel .slick-item {
+    color: white;
+    background-color: transparent;
+    min-height: 250px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+#div-carousel > div > div > div > div > div > button{
+    background-color: unset;
+    border: none;
+  }
+
+.slick-carousel .slick-item:hover {
+    opacity: .7
+  }
+  
+.slick-prev:before,
+.slick-next:before {
+    display: none;
+  }
+  
+.slick-arrow {
+    display: outside;
+  }
+  
+.slick-prev {
+    display: none;
+  }
+  
+.slick-next {
+    display: none;
+  }
+  
+/*  CAPTION  */
+
+.modal-body{
+    font-family: Verdana, Tahoma, sans-serif;
+}
+  
+.caption-item {  
+    right: 0;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+.caption-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+.caption-link .caption-layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+  }
+  
+.caption-layer.green {
+    background: white
+  }
+  
+/* CAPTION LAYER */
+  
+.caption-link .caption-layer:hover,
+.caption-layer.video-icon {
+    opacity: 1;
+  }
+  
+.caption-link .caption-layer .caption-content {
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+  }
+  
+.caption-link .caption-layer .caption-content p {
+    display: none;
+  }
+
+/* FOOTER */
+
+.logo_footer{
+    width:50%;
+    padding:10%
+}
+
+footer{
+    font-family: 'Rouge Script', cursive;
+    background-image: url("../images/fond.jpg");
+    background-size: cover;
+    display:inline;
+}
+
+.contact{
+    color: white;
+    font-size: 1.2em;
+    padding-left: 40px;
+}
+
+.title_contact{
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 2.3em;
+    padding-left: 20px;
+}
+
+#mapid { 
+    height: 400px; 
+    
+   
+}
+#map_container{
+    padding: 20px;
+}
